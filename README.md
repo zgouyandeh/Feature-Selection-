@@ -20,6 +20,6 @@ It is a univariate feature selection technique where the predictive power of eac
 ###Issue with filter methods:
 Filter methods are univariate in nature, because statistical measures are applied considering one input variable at a time. This means that interaction between the predictors are not considered. Let’s say we are using correlation coefficient to select the features with this if we select all features with high correlation to the target what about the correlation between the features. This causes the problem of multi-collinearity which is against the assumptions of some of the predictive models (Linear/Logistic Regression). Based on the type of input and output variable there are different statistical measures that can be used for Feature Selection.
 
-1. ## Continuous Input and Continuous Output
-2. ## Categorical Input and Continuous Output
-3. ## Categorical Input and Categorical Output
+#### 1. Continuous Input and Continuous Output
+#### 2. Categorical Input and Continuous Output
+#### 3. Categorical Input and Categorical Output
